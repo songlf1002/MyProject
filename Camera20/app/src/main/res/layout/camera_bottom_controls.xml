@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#73000000"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_thumb"
+            android:padding="3px"
+            android:background="@drawable/circle_shape"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="45dp" />
+        <ImageButton
+            android:id="@+id/takePicture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="45dp"
+            android:src="@drawable/ic_take_picture"/>
+        <ImageButton
+            android:id="@+id/switch_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_switch"/>
+        <ImageButton
+            android:id="@+id/btn_video_recode"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="45dp"
+            android:src="@drawable/video"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

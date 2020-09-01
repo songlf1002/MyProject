@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_one_to_one"
+        android:icon="@drawable/ic_1_1"
+        app:showAsAction="never"
+        android:title="1:1" />
+    <item
+        android:id="@+id/ic_four_to_three"
+        android:icon="@drawable/ic_4_3"
+        app:showAsAction="never"
+        android:title="4:3"
+        />
+    <item
+        android:id="@+id/ic_sixteen_to_nine"
+        android:icon="@drawable/ic_16_9"
+        app:showAsAction="never"
+        android:title="16:9"/>
+
+</menu>
